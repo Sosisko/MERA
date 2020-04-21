@@ -1,0 +1,91 @@
+
+
+
+html {
+  box-sizing: border-box; 
+  /*Свойства width и height вычисляются по контенту, 
+  padding и border, но не включая margin. 
+  Эта блоковая модель используется в Internet Explorer 
+  когда документ находится в Режиме совместимости.*/
+}
+
+*, /*Все элементы на странице*/
+*::before,
+*::after {
+  box-sizing: inherit; /*Наследует значение родителя.*/
+}
+
+body {
+  min-width: 320px; /*Минимальная ширина*/
+  margin: 0; /*Обнуление внешних отступов*/
+
+  background-color: #fff; /*Цвет фона*/
+
+  /*font-family: Arial, sans-serif; /*Название шрифта*/
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px; /*Размер шрифта*/
+  line-height: 1.429; /*Интервал между букв по вертикали*/
+  color: black; /*Цвет шрифта*/
+  font-display: swap;
+}
+
+img {
+  max-width: 100%; /*Ширина равна ширине контейнера, в котором находится картинка*/
+  height: auto; /*Высота задаётся автоматически согласно высоте картинки*/
+}
+
+a {
+  text-decoration: underline;/*Убирает подчёркивание ссылок*/
+  text-decoration: none; 
+  color: inherit; /*Принимает цвет текста, установленный в родителе*/
+}
+
+ul {
+  list-style: none; /*Убирает точки списка*/
+  padding: 0; /*Обнуление внешних отступов*/
+  margin: 0; /*Обнуление внутренних отступов*/
+}
+
+h1, h2, h3, p {
+  padding: 0; /*Обнуление внешних отступов*/
+  margin: 0; /*Обнуление внутренних отступов*/
+}
+
+.fixed-container {
+  position: relative;
+  max-width: 1210px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.flex-container {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+  /*flex-wrap: wrap;*/
+
+}
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important; 
+	width: 1px !important; 
+	overflow: hidden;
+} 
+

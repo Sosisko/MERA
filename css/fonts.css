@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Capture";
+  src: url("../fonts/Captureit.woff2") format("woff2"), /* Modern Browsers */
+       url("../fonts/Captureit.woff") format("woff"); /* Modern Browsers */
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: "Cuprum";
+  src: url("../fonts/Cuprum-Regular.woff2") format("woff2"), /* Modern Browsers */
+       url("../fonts/Cuprum-Regular.woff") format("woff"); /* Modern Browsers */
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

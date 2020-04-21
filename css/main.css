@@ -1,0 +1,145 @@
+.header {
+    height: 90px;
+    background: #231f20;
+}
+
+.brand {
+    display: inline-block;
+}
+
+.brand-logo {
+    font-family: 'Capture', sans-serif;
+    display: inline-block;
+    color: #2c2b2b;
+    font-size: 56px;
+    line-height: 90px;
+    text-transform: uppercase;
+    background: #f2cf53;
+    padding: 0 15px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.brand-slogan {
+    display: inline-block;
+    color: #f2cf53;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    vertical-align: middle;
+}
+
+.bg-span {
+    display: inline-block;
+}
+
+.brand-logo span {
+    font-family: 'Capture', sans-serif;
+    color: #f2cf53;
+    background: #2c2b2b;
+    padding: 15px 0;
+}
+
+.header-menu {
+    display: inline-block;
+    width: 600px;
+}
+
+.header-menu ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-menu a {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: .8px;
+    transition: .3s all ease;
+}
+
+.header-menu a:hover {
+    color: #f2cf53;
+    transition: .3s all ease;
+}
+
+
+.header-menu ul>li.active>a{
+    color: #8c8c68;
+}
+
+  .section-one {
+    width: 100%; /* 320px max-width on mobile with 8px margins */
+    overflow: hidden;
+    position: relative;
+}
+
+
+ .parallax-window {
+  min-height: 700px; /* минимальная высота для картинки */
+  background: transparent;
+}
+
+.slogan {
+    position: absolute;
+    top: -630px;
+    right: -190px;
+    max-width: 725px;
+
+}
+
+.slogan-text {
+    padding: 50px 87px 66px;
+    border: 15px solid #fff;
+}
+
+.slogan-text h1 {
+    font-family: "Cuprum", sans-serif;
+    font-size: 66px;
+    line-height: 1.06;
+    color: #f2cf53;
+    font-weight: 400;
+}
+
+.slogan-text p {
+    margin-top: 22px;
+    font-size: 26px;
+    line-height: 1.4;
+    color: #fff;
+}
+
+.section-two {
+    position: relative;
+    background: #f2cf53;
+    z-index: 1;
+    margin: 15px;
+    padding-top: 62px;
+    padding-bottom: 55px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-center h3 {
+    font-size: 45px;
+    line-height: 1.33333;
+    font-family: "Cuprum", sans-serif;
+    font-weight: 700;
+    color: #231f20;
+}
+
+.text-center__rows {
+    text-align: left;
+    align-items: flex-start;
+}
+
+.text-center__row {
+    max-width: 33.33333%;
+    padding-right: 60px;
+}
+
