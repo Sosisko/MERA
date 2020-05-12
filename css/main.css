@@ -143,3 +143,21 @@
     padding-right: 60px;
 }
 
+.section-three {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+
+.text-left {
+    width: 50%;
+}
+
+
+.banners {
+    max-width: 670px;
+}
