@@ -1,0 +1,145 @@
+@media (max-width: 1024px) {
+    .brand-slogan {
+        display: none;
+        visibility: hidden;
+	}
+	.services__section__img {
+		max-width: 150px;
+	}
+}
+
+@media (max-width: 950px) {
+	.swiper-slide_text {
+	    max-width: 550px;
+	}
+	.swiper-wrapper p {
+		font-size: 20px;
+	}
+	.section-two__wrapper_item {
+		flex: 50%;
+		padding-right: 0;
+	}
+}
+
+@media (max-width: 850px) {	
+	.swiper-container {
+		height: 100dvh;
+	}
+	.services__item {
+    	flex: 1 1 calc(50% - 30px);
+    }
+    .contacts__text {
+    	order: 1;
+    	width: 100%;
+	    display: flex;
+	    justify-content: space-between;
+	    flex-wrap: wrap;
+	    padding-right: 0;
+	    margin-bottom: 20px;
+    }
+    .contacts__text h2 {
+    	text-align: center;
+    	width: 100%;
+    }
+    .contacts__text_adress, .contact__text_items {
+    	width: 33.3333%;
+    }
+    .contacts__map {
+    	width: 100%;
+    	order: 2;
+    	min-height: 300px;
+    }
+    .contacts__time-work {
+    	order: 3;
+    	padding: 20px 0 0 0;
+		width: 100%;
+		text-align: center;
+    }
+    .contact__text_items {
+		margin: 0;
+	}
+	.services__section__img {
+		display: none;
+		visibility: hidden;
+	}
+}
+
+
+
+@media (max-width: 768px) {
+	.section-3__gentext h1 {
+		font-size: 20px;
+	}
+    .swiper-wrapper h1 {
+    	font-size: 32px;
+	}
+	.swiper-wrapper p {
+		font-size: 16px;
+		max-width: 500px;
+	}
+	.swiper-wrapper p::before {
+	    height: 26px;
+	}
+	.swiper-slide_text {
+	    max-width: 500px;
+	}
+
+	.burger-menu__button {
+	    display: block;
+	    visibility: visible;
+	}
+	.header-menu {
+		display: none;
+		visibility: hidden;
+	}
+	.brand-slogan {
+		display: inline-block;
+		visibility: visible;
+	}
+	.text-center__row {
+	    width: 100%;
+	}
+	.text-center__row:nth-child(2) {
+	    margin: 20px 0;
+	}
+	.text-center__rows {
+	    flex-wrap: wrap;
+	}
+
+	.section-one__wrapper_items,
+	.section-two__wrapper_items,
+	.section-three__wrapper_items {
+		display: block;
+		margin: 0 auto;
+	}
+	.section-one__wrapper_item,
+	.section-two__wrapper_item,
+	.section-three__wrapper_item {
+		padding-left: 0;
+	}
+	
+}
+
+@media (max-width: 610px) {
+	.services__item {
+    	flex: 1 1 100%;
+    }
+	.swiper-wrapper h1 {
+		padding-bottom: 70px;
+	}
+    .contacts__text_adress, .contact__text_items {
+    	flex: 1 1 100%;
+	}
+	.swiper-button-next,
+	.swiper-button-prev {
+		display: none;
+	}
+}
+
+
+@media (max-width: 450px) {
+	.brand-slogan {
+		visibility: hidden;
+		display: none;
+	}
+}

@@ -1,91 +1,350 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ООО "ТСК Мера"</title>
-    <link rel="stylesheet" href="css/fonts.css">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
-    <header class="header">
-        <div class="fixed-container flex-container">
-            <div class="brand">
-                <div class="brand-logo">
-                        <span>м</span>ера</div>
-                <span class="brand-slogan">торгово-<br>
-                строительная<br>
-                компания</span>
-            </div>
-            <nav class="header-menu">
-                <ul>
-                    <li class="active"><a href="#">home</a></li>
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">products</a></li>
-                    <li><a href="#">investor</a></li>
-                    <li><a href="#">news</a></li>
-                    <li><a href="#">contacts</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main class="page-content">
-      <section class="section-one">
-        <div class="parallax-window" data-parallax="scroll" data-natural-width="2050" data-natural-height="1663" data-speed="1.5" data-image-src="img/page-1_parallax01.jpg"></div>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
 
-        <div class="fixed-container">
-          <div class="slogan">
-            <div class="slogan-text">
-              <h1>A quality line of construction products and services</h1>
-              <p>Find top construction products in the industry</p>
+  <body>
+    <header class="header" id="header">
+      <div class="fixed-container flex-container">
+        <div class="brand">
+          <div class="brand-logo"><span>м</span>ера</div>
+          <span class="brand-slogan"
+            >торгово-<br />
+            строительная<br />
+            компания</span
+          >
+        </div>
+        <nav class="header-menu">
+          <ul>
+            <li><a class="flowing-scroll" href="#section-1">Главная</a></li>
+            <li><a class="flowing-scroll" href="#section-2">О нас</a></li>
+            <li><a class="flowing-scroll" href="#section-3">Каталог</a></li>
+            <li><a class="flowing-scroll" href="#footer">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <nav class="header-menu__burger burger-menu">
+          <div class="burger-menu__button">
+            <span></span>
+          </div>
+          <div class="burger-menu_overlay">
+            <ul class="burger-menu__links">
+              <li>
+                <a
+                  class="burger-menu__link-item flowing-scroll"
+                  href="#section-1"
+                  >Главная</a
+                >
+              </li>
+              <li>
+                <a
+                  class="burger-menu__link-item flowing-scroll"
+                  href="#section-2"
+                  >О нас</a
+                >
+              </li>
+              <li>
+                <a
+                  class="burger-menu__link-item flowing-scroll"
+                  href="#section-3"
+                  >Каталог</a
+                >
+              </li>
+              <li>
+                <a class="burger-menu__link-item flowing-scroll" href="#footer"
+                  >Контакты</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section class="section-1" id="section-1">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide ss-1">
+            <div class="swiper-slide_text fixed-container">
+              <h1 style="opacity: 0">
+                Снабжение объектов на всех этапах строительства
+              </h1>
+              <p style="opacity: 0">
+                Комплексное снабжение строительных материалов для наружней и
+                внутренней отделки
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide ss-2">
+            <div class="swiper-slide_text fixed-container">
+              <h1>
+                Расчёт сметы, деффектной ведомости, работа по проектам
+                <!-- инженерных систем -->
+              </h1>
+              <p>Подбор аналогов, минимальные сроки произодства</p>
+            </div>
+          </div>
+          <div class="swiper-slide ss-3">
+            <div class="swiper-slide_text fixed-container">
+              <h1>Доставка по земле, воде и воздуху!</h1>
+              <p>Предложим кратчайший срок поставки по минимальной цене</p>
             </div>
           </div>
         </div>
-      </section>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+    <section class="section-2" id="section-2">
+      <div class="about-top"></div>
+      <div class="text-center fixed-container">
+        <h3>Почему мы ?</h3>
+        <div class="separator">
+          <span class="separator-left"></span>
+          <span class="separator-right"></span>
+        </div>
+        <h4 class="text-center__slogan">С нами удобно, оперативно, надёжно!</h4>
 
-      <section class="section-two">
-        <div class="text-center fixed-container">
-            <h3>Welcome to the number 1 company in the industry!</h3>
-            <div class="text-center__rows flex-container">
-              <div class="text-center__row">
-                <h4>Looking for some helpful advice?</h4>
-                <p>Go no further; you've come to the right place. We are professional, experienced and dedicated to your satisfaction. We value your trust!</p>
-              </div>
+        <div class="text-center__rows flex-container">
+          <div class="text-center__row">
+            <img src="./img/lamp.svg" alt="" />
+            <h4>Рассчитать заявку?</h4>
+            <p>
+              Работа по срочным, горящим заявкам, требующие минимальные срок и
+              цену! Грамотный подбор аналогов, при желании заказчика!
+            </p>
+          </div>
 
-              <div class="text-center__row">
-                <h4>Thanks for your choice!</h4>
-                <p>Putting our clients’ interests first, we work hard to exceed your expectations.</p>
-              </div>
+          <div class="text-center__row">
+            <img src="./img/car.svg" alt="" />
+            <h4>Как мы доставляем?</h4>
+            <p>
+              Догрузом, транспортными компаниями, самолётом, ж/д вагоном и
+              баржой!
+            </p>
+          </div>
 
-              <div class="text-center__row">
-                <h4>Thank you for visiting our site!</h4>
-                <p>You are at the right place! We are focused on providing integrated solutions and services to customers around the world. </p>
-              </div>
+          <div class="text-center__row">
+            <img src="./img/sertificate.svg" alt="" />
+            <h4>Вся продукция сертифицирована.</h4>
+            <p>
+              Предоставим необходимые сопроводительные документы и сертификаты!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="about-bottom"></div>
+    </section>
+    <section class="section-3" id="section-3">
+      <div class="section-3__gentext fixed-container">
+        <h1>Каталог продукции</h1>
+        <p>Оборудование, материалы и инструмент в одном месте!</p>
+        <div class="services fixed-container">
+          <a href="./ingineers.html" class="services__item">
+            <div class="services__item_img">
+              <img src="./img/service-1.jpg" alt="" />
             </div>
+            <div class="services__item_text">
+              <h3>Инженерные системы</h3>
+              <p>Электрика, сантехника, вентиляция</p>
+            </div>
+          </a>
+          <a href="./materials.html" class="services__item">
+            <div class="services__item_img">
+              <img src="./img/service-2.png" alt="" />
+            </div>
+            <div class="services__item_text">
+              <h3>Строительные материалы</h3>
+              <p>Теплоизоляция, строительные смеси, отделка</p>
+            </div>
+          </a>
+          <a href="./hardware.html" class="services__item">
+            <div class="services__item_img">
+              <img src="./img/service-3.jpg" alt="" />
+            </div>
+            <div class="services__item_text">
+              <h3>Крепёж, фурнитура</h3>
+              <p>Саморезы, крепёж, шпильки</p>
+            </div>
+          </a>
+          <a href="./roof.html" class="services__item">
+            <div class="services__item_img">
+              <img src="./img/service-4.jpg" alt="" />
+            </div>
+            <div class="services__item_text">
+              <h3>Кровельные и фасадные материалы</h3>
+              <p>Профнастил, сайдинг, ветрозащита</p>
+            </div>
+          </a>
+          <a href="./instruments.html" class="services__item">
+            <div class="services__item_img">
+              <img src="./img/service-5.jpg" alt="" />
+            </div>
+            <div class="services__item_text">
+              <h3>Инструмент</h3>
+              <p>Перфораторы, шуруповёрты, ручной инструмент</p>
+            </div>
+          </a>
+          <a href="./small-materials.html" class="services__item">
+            <div class="services__item_img">
+              <img src="./img/service-6.jpg" alt="" />
+            </div>
+            <div class="services__item_text">
+              <h3>Расходные материалы</h3>
+              <p>Перчатки, диски отрезные, буры</p>
+            </div>
+          </a>
+          <a href="./ecostar.html" class="services__item">
+            <div class="services__item_img">
+              <img src="./img/service-7.png" alt="" />
+            </div>
+            <div class="services__item_text">
+              <h3>Горелки ECOSTAR</h3>
+              <p>Газовые, дизельные, мазутные и др.</p>
+            </div>
+          </a>
+          <a href="#" class="services__item">
+            <div class="services__item_img">
+              <img src="./img/service-8.jpg" alt="" />
+            </div>
+            <div class="services__item_text">
+              <h3>Горелки F.B.R.</h3>
+              <p>Горелки для котлов F.B.R.</p>
+            </div>
+          </a>
+          <a target="_blank" href="http://ici-caldaie-rus.ru/" class="services__item">
+            <div class="services__item_img">
+              <img src="./img/service-9.jpg" alt="" />
+            </div>
+            <div class="services__item_text">
+              <h3>ICI CALDAIE</h3>
+              <p>Котлы итальянского бренда</p>
+            </div>
+          </a>
         </div>
-      </section>
-      
-      <section class="section-three">
-        <div class="text-left">
-          <h2>We offer a great variety of products & services</h2>
-          <p>Whether you're a homeowner, landscaper or contractor, we invite you to experience the level of commitment we have to our customers and the services we provide.</p>
-          <p>We carry a large variety of products to help you beautify and fortify.</p>
+      </div>
+    </section>
+    <section class="section-4">
+      <div class="section-4_top-size top-size">
+        <div class="top-size__title">
+          <h2>Наши партнёры</h2>
+          <div class="separator">
+            <span class="separator-left"></span>
+            <span class="separator-right"></span>
+          </div>
+          <p>
+            Мы работаем со многими поставщиками и заводами по дилерским
+            договорам в регионе и не только!
+          </p>
         </div>
-        <div class="banners">
-          <a href="#" class="banner-1"><img src="img/page-1_img01.jpg" alt=""></a>
-          <a href="#" class="banner-1"><img src="img/page-1_img02.jpg" alt=""></a>
-          <a href="#" class="banner-1"><img src="img/page-1_img03.jpg" alt=""></a>
-          <a href="#" class="banner-1"><img src="img/page-1_img04.jpg" alt=""></a>
+        <div class="partners">
+          <div class="partners__slider">
+            <div><img src="./img/partners/albes.png" alt="" /></div>
+            <div><img src="./img/partners/armstrong.jpg" alt="" /></div>
+            <div><img src="./img/partners/brozex.png" alt="" /></div>
+            <div><img src="./img/partners/ceresit.png" alt="" /></div>
+            <div><img src="./img/partners/ekover.jpg" alt="" /></div>
+            <div><img src="./img/partners/isover.png" alt="" /></div>
+            <div><img src="./img/partners/izospan.jpg" alt="" /></div>
+            <div><img src="./img/partners/knauf.jpg" alt="" /></div>
+            <div><img src="./img/partners/macroflex.jpg" alt="" /></div>
+            <div><img src="./img/partners/makita.jpg" alt="" /></div>
+            <div><img src="./img/partners/matrix.jpg" alt="" /></div>
+            <div><img src="./img/partners/monterrey.jpeg" alt="" /></div>
+            <div><img src="./img/partners/penoplex.jpg" alt="" /></div>
+            <div><img src="./img/partners/penoterm.jpeg" alt="" /></div>
+            <div><img src="./img/partners/porileks.jpg" alt="" /></div>
+            <div><img src="./img/partners/tarket.jpg" alt="" /></div>
+            <div><img src="./img/partners/technonikol.jpg" alt="" /></div>
+            <div><img src="./img/partners/tehkrep.jpeg" alt="" /></div>
+            <div><img src="./img/partners/tplast.jpg" alt="" /></div>
+            <div><img src="./img/partners/tytan.png" alt="" /></div>
+            <div><img src="./img/partners/uraliskiy_granit.jpg" alt="" /></div>
+            <div><img src="./img/partners/ursa.jpg" alt="" /></div>
+          </div>
         </div>
-      </section>
-  
-    </main>
+      </div>
+      <div class="constrot-strip"></div>
+      <div class="offer">
+        <div class="offer__text fixed-container">
+          <h4>
+            Комплексный подход позволяет вам купить весь материал в одном месте,
+            что значительно экономит средства на логистике.
+          </h4>
+          <p>
+            Более 25 тысяч наименований строительных материалов, инженерных
+            систем, инструмента.
+          </p>
+        </div>
+      </div>
+      <div class="constrot-strip"></div>
+    </section>
+    <footer class="footer" id="footer">
+      <div class="footer__wrapper">
+        <div class="contacts fixed-container">
+          <div class="contacts__item contacts__time-work">
+            <h4>Время работы:</h4>
+            <p><span>Пн-пт:</span>&nbsp;9:00-18:00</p>
+            <p><span>Сб-Вс:</span>&nbsp;Приём заявок</p>
+            <p>Приём заявок 24/7!</p>
+            <p>Мы всегда на связи!</p>
+          </div>
+          <div class="contacts__item contacts__text">
+            <h2>Наши контакты</h2>
+            <div class="contacts__text_adress">
+              <h4>Адрес:</h4>
+              <p>г. Екатерибург, ул. Новостроя, 1А</p>
+            </div>
+            <div class="contact__text_items contact__items">
+              <span class="contact__items_person">Михаил</span>
+              <a class="contact__items_phone" href="tel:+79826008247"
+                >+7-982-600-82-47</a
+              >
+              <a class="contact__items_mail" href="mailto:tsk.mera@bk.ru"
+                >tsk.mera@bk.ru</a
+              >
+            </div>
+            <div class="contact__text_items contact__items">
+              <span class="contact__items_person">Герман</span>
+              <a class="contact__items_phone" href="tel:+79126650345"
+                >+7-912-665-03-45</a
+              >
+            </div>
+          </div>
+          <div class="contacts__item contacts__map">
+            <script
+              async
+              src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A93e2846f625ff7b50d1afbc578e4a9596522f46c5fff503d66c27fb346f9976c&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=false"
+            ></script>
+          </div>
+        </div>
+      </div>
 
+      <div class="footer__autor">
+        <p>&copy; Все права защищены нашим трудолюбием</p>
+      </div>
+    </footer>
 
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/parallax.js"></script>
-</body>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>

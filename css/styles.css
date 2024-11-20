@@ -26,7 +26,6 @@ body {
   font-size: 16px; /*Размер шрифта*/
   line-height: 1.429; /*Интервал между букв по вертикали*/
   color: black; /*Цвет шрифта*/
-  font-display: swap;
 }
 
 img {
@@ -35,9 +34,8 @@ img {
 }
 
 a {
-  text-decoration: underline;/*Убирает подчёркивание ссылок*/
-  text-decoration: none; 
-  color: inherit; /*Принимает цвет текста, установленный в родителе*/
+  text-decoration: none; /*Убирает подчёркивание ссылок*/
+  /*color: inherit; !*Принимает цвет текста, установленный в родителе*!*/
 }
 
 ul {
@@ -78,14 +76,14 @@ h1, h2, h3, p {
   clear: both;
 }
 
-.visually-hidden {
+/* .visually-hidden {
 	position: absolute !important;
-	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px 1px 1px 1px);
 	clip: rect(1px, 1px, 1px, 1px);
 	padding:0 !important;
 	border:0 !important;
 	height: 1px !important; 
 	width: 1px !important; 
 	overflow: hidden;
-} 
+}  */
 
