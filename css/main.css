@@ -358,7 +358,8 @@
     margin: 15px; 
     padding: 5px;
     background-color: #fff;
-
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 
@@ -495,6 +496,7 @@
     padding: 20px;
     border: 4px solid #f2cf53;
     width: 40%;
+    border-radius: 6px;
 }
 
 
@@ -592,6 +594,7 @@
 .contacts__text_adress {
     border: 1px solid #5f5e5e;
     padding: 15px;
+    border-radius: 6px;
 }
 
 .contacts__text_adress h4 {
@@ -613,6 +616,7 @@
     border: 1px solid #5f5e5e;
     margin-top: 40px;
     padding: 15px;
+    border-radius: 6px;
 }
 
 .contact__items_person {
